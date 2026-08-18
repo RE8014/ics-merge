@@ -1,4 +1,4 @@
-# ICS Merge
+# ICS Calendar Merger
 
 A simple, automated setup that merges multiple iCalendar (`.ics`) files inside the `calendar/` directory into a single `calendar.ics` file at the root of the repository using GitHub Actions.
 
@@ -22,3 +22,11 @@ A simple, automated setup that merges multiple iCalendar (`.ics`) files inside t
 │   ├── calendar-1.ics        # Your calendar files
 │   └── calendar-2.ics
 └── calendar.ics              # Auto-generated combined calendar file
+```
+
+## 🔗 How to Use the Merged Calendar
+You can subscribe to your merged calendar in Apple Calendar, Google Calendar, or Outlook using the raw URL of the generated `calendar.ics` file:
+
+`https://raw.githubusercontent.com/<YOUR-USERNAME>/<YOUR-REPO-NAME>/main/calendar.ics`
+
+> Note: Changes may take up to 5 minutes to appear in calendar apps due to GitHub's CDN caching.
