@@ -1,4 +1,4 @@
-# ICS Calendar Merger
+# ICS Merge
 
 A simple, automated setup that merges multiple iCalendar (`.ics`) files inside the `calendar/` directory into a single `calendar.ics` file at the root of the repository using GitHub Actions.
 
