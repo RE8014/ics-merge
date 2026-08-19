@@ -16,11 +16,9 @@ Automatically merges multiple iCalendar (`.ics`) files inside the `calendar/` fo
 .
 ├── .github/
 │   └── workflows/
-│       └── merge-ics.yml     # Auto-merge and Gist sync workflow
+│       └── merge.yml     # Auto-merge and Gist sync workflow
 └── calendar/
-    ├── empty.ics             # Base calendar template
-    ├── calendar-1.ics
-    └── calendar-2.ics
+    └── .UPLOAD ICS FILES HERE      # Base calendar template
 
 ```
 
