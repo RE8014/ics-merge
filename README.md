@@ -43,5 +43,5 @@ Go to **Settings** > **Secrets and variables** > **Actions** in this repository 
 
 ## 🔗 Calendar Subscription
 
-1. Open your Secret Gist page and click the **Raw** button on `calendar.ics`.
+1. Head to `https://gist.githubusercontent.com/<USERNAME>/<GIST_ID>/raw/calendar.ics`.
 2. Copy the resulting URL into Apple Calendar, Google Calendar, or Outlook to subscribe.
