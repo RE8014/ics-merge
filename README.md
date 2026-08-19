@@ -1,4 +1,4 @@
-# Private ICS Calendar Merger
+# Private ICS Calendar Merge
 
 Automatically merges multiple iCalendar (`.ics`) files inside the `calendar/` folder into a single `calendar.ics` published directly to a **Secret GitHub Gist**.
 
